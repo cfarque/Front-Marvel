@@ -1,0 +1,38 @@
+.character-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-all {
+  display: flex;
+  height: 250px;
+  width: 1000px;
+  margin: 10px 0;
+  background-color: white;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px silver;
+}
+
+.character-img {
+  height: 100%;
+  border-radius: 3px;
+}
+
+.character-just-img {
+  width: 400px;
+}
+
+.character-name-description > h3 {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.character-name-description {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}

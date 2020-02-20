@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  background-color: black;
+}
+
+.header-menu {
+  width: 1240px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto 0;
+  color: white;
+}
+
+.header-menu > li {
+  margin-top: 80px;
+  font-size: 30px;
+}
+
+.header-favorite:hover {
+  color: red;
+  border-bottom: white 3px solid;
+}
+.header-comics:hover {
+  color: red;
+  border-bottom: white 3px solid;
+}
+.header-characters:hover {
+  color: red;
+  border-bottom: white 3px solid;
+}
