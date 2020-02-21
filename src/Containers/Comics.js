@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Comics.css";
 import axios from "axios";
-import Albums from "../Components/Comics/Albums.js";
+import Albums from "../Components/Comics";
 import { useParams, Link } from "react-router-dom";
 
 const nbResultByPage = 100;
