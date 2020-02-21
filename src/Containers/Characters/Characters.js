@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Character from "../Containers/Characters/Characters.js";
+import Character from "src/Components/Characters/Character.js";
 import "./Characters.css";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
