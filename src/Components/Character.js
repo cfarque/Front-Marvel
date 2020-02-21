@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Character.css";
+import "./Characters/Character.css";
 import { useHistory } from "react-router-dom";
 import cookie from "js-cookie";
 
