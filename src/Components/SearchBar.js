@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useParams } from "react-router-dom";
-import axios from "";
+import axios from "axios";
 import { useEffect } from "react";
 const nbResultByPage = 100;
 
