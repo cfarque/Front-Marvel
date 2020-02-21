@@ -50,7 +50,6 @@ function SearchBar({
         const pages = nbPages
           ? new Array(nbPages).fill(null).map((p, i) => `${i + 1}`)
           : [];
-        console.log("1", search);
         if (search) {
           research();
         } else {

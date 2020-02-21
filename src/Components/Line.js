@@ -1,7 +1,6 @@
 import React from "react";
 
 function Line({ data, isLoading }) {
-  console.log(data);
   return (
     <div>
       {isLoading ? (

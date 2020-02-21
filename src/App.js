@@ -7,7 +7,7 @@ import Favorites from "./Containers/Favorites/Favorites";
 import Characters from "./Containers/Characters/Characters";
 import ComicsCharacters from "./Containers/ComicsCharacters";
 import SearchBar from "./Components/SearchBar";
-import Line from "/Users/Claire/LeReacteur/Marvel/front/src/Components/Line.js";
+import Line from "./Components/Line";
 
 import "./App.css";
 
