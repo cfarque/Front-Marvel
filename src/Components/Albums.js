@@ -1,5 +1,5 @@
 import React from "react";
-import "./Albums.css";
+import "../Components/Comics/Albums.css";
 import cookie from "js-cookie";
 
 function Comic({ comics }) {

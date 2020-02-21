@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Character from "../Components/Character";
-import "./Characters.css";
+import "./Characters/Characters.css";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
 

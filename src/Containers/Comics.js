@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "./Comics.css";
+import "../Containers/Comics/Comics.css";
 import axios from "axios";
-import Albums from "../Components/Comics";
+import Albums from "../Components/Albums";
 import { useParams, Link } from "react-router-dom";
 
 const nbResultByPage = 100;
@@ -13,7 +13,6 @@ function Comics() {
   const { page = "1" } = useParams();
 
   const fetchData = async () => {
-    console.log("page", page);
     const offset = (page - 1) * nbResultByPage;
     const response = await axios.get(
       `https://back-marvel.herokuapp.com/comics?limit=${nbResultByPage}&offset=${offset}`
